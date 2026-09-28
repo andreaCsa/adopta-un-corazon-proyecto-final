@@ -12,7 +12,7 @@ La idea parte del proyecto original de Andrea. Conserva la temática, la fotogra
 
 | Enlace de entrega                      | Estado                 |
 | -------------------------------------- | ---------------------- |
-| Repositorio de esta revisión en GitHub | Pendiente de publicar  |
+| Repositorio nuevo en GitHub | [adopta-un-corazon-proyecto-final](https://github.com/andreaCsa/adopta-un-corazon-proyecto-final) |
 | Frontend de esta revisión              | Pendiente de desplegar |
 | Backend de esta revisión               | Pendiente de desplegar |
 

@@ -1,0 +1,8 @@
+node_modules
+frontend/node_modules
+frontend/dist
+data
+*.png
+*.jpg
+package-lock.json
+frontend/package-lock.json

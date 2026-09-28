@@ -1,0 +1,11 @@
+import { Router } from 'express';
+import { loginUser, registerUser, publicUser } from '../controllers/userController.js';
+import { protect } from '../middleware/authMiddleware.js';
+import { authLimiter } from '../middleware/authLimiter.js';
+import { asyncRoute } from '../utils/http.js';
+const router = Router();
+const limiter = authLimiter();
+router.post('/register', limiter, asyncRoute(registerUser));
+router.post('/login', limiter, asyncRoute(loginUser));
+router.get('/me', protect, (req, res) => res.json(publicUser(req.user)));
+export default router;

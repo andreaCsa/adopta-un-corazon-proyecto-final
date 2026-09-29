@@ -8,13 +8,13 @@ La idea parte del proyecto original de Andrea. Conserva la temática, la fotogra
 
 ## Estado de la entrega
 
-**Versión local comprobada. Despliegue de esta versión todavía pendiente.**
+**Frontend y backend publicados y comprobados el 29 de septiembre de 2026.**
 
 | Enlace de entrega                      | Estado                 |
 | -------------------------------------- | ---------------------- |
 | Repositorio nuevo en GitHub | [adopta-un-corazon-proyecto-final](https://github.com/andreaCsa/adopta-un-corazon-proyecto-final) |
-| Frontend de esta revisión              | Pendiente de desplegar |
-| Backend de esta revisión               | Pendiente de desplegar |
+| Web pública | [Adopta un corazón](https://adopta-un-corazon-proyecto-final.vercel.app) |
+| Backend: comprobación de servicio | [API disponible](https://adopta-un-corazon-final-api.onrender.com/api/health) |
 
 La URL anterior `https://adopta-un-corazon.vercel.app` pertenece al proyecto previo. No se presenta como un despliegue de esta revisión.
 

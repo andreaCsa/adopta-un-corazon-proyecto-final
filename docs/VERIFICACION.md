@@ -16,6 +16,16 @@ Fecha: 28 de septiembre de 2026.
 
 Las pruebas verifican la copia local. No reparan por sí mismas la web publicada anteriormente ni confirman la causa de su fallo de acceso. No se ha modificado su base de datos.
 
-Todavía es necesario publicar la revisión, configurar la conexión entre servicios y repetir las comprobaciones desde las URLs públicas. El README y la matriz de requisitos mantienen esos puntos pendientes.
+La publicación y las comprobaciones públicas se completaron el 29 de septiembre de 2026; se detallan a continuación.
 
 La demo utiliza una base temporal y credenciales ficticias. No utiliza el `.env` original. La compilación de prueba apunta a `127.0.0.1` y debe recompilarse con la URL real del backend antes de publicar.
+
+## Verificación pública — 29 de septiembre de 2026
+
+- Web: https://adopta-un-corazon-proyecto-final.vercel.app
+- API: https://adopta-un-corazon-final-api.onrender.com/api/health — HTTP 200.
+- Semilla en Atlas: 100 animales, 30 usuarios ficticios y 40 solicitudes.
+- Navegador: catálogo público con 100 resultados, 12 fichas en la primera página y sin error de conexión.
+- API pública: CORS para el dominio nuevo, registro, login, sesión y creación/consulta de una solicitud, todos correctos. La prueba autorizada añade una cuenta ficticia y una solicitud claramente identificadas como verificación técnica.
+- Tras actualizar dependencias: seis pruebas de integración pasadas; auditoría npm sin vulnerabilidades reportadas.
+- El rol administrador se probó localmente; no se ha creado todavía una cuenta administrativa personal en producción.

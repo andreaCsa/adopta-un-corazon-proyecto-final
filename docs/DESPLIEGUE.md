@@ -77,3 +77,13 @@ Si falla la conexión, revisa `/api/health`, después `VITE_API_URL` en Vercel y
 ## Entrega
 
 Completa la tabla del README con los enlaces definitivos de GitHub, frontend y backend. Facilita al profesorado una forma de probar el panel administrativo por el canal privado indicado por el máster. Completa los puntos pendientes de `REQUISITOS.md` solo después de verificar las URLs públicas.
+
+## Publicación nueva (29 de septiembre de 2026)
+
+- Frontend: https://adopta-un-corazon-proyecto-final.vercel.app
+- Backend: https://adopta-un-corazon-final-api.onrender.com
+- Vercel: raíz `frontend`, Vite y `VITE_API_URL` con la URL del backend.
+- Render: plan Free, compilación `npm ci --omit=dev`, arranque `node scripts/seed-production.js && npm start`.
+- `FRONTEND_URL` debe coincidir exactamente con el dominio público de Vercel.
+- La semilla de producción usa una contraseña aleatoria no publicada para las cuentas ficticias del Excel. Para probar como adoptante, crea una cuenta desde la web. El administrador se crea con el procedimiento `admin:create`; no se publica ninguna contraseña administrativa.
+- La semilla inserta lo que falta sin sustituir registros existentes. El servicio gratuito puede tardar en responder al reactivarse tras inactividad.

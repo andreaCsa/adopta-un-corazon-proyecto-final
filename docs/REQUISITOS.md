@@ -19,13 +19,13 @@ Fuente: descripción y requisitos de «RTC Proyecto Final» facilitados por Andr
 | Público objetivo y sentido lógico               | Catálogo público, solicitud privada y administración de adopciones                    | Explicado en README                                             |
 | Buena UX/UI                                     | Diseño responsive, etiquetas, navegación por teclado, carga, errores y confirmaciones | Revisado localmente; valoración del profesorado                 |
 | README detallado                                | Propósito, arquitectura, decisiones, API, datos y ejecución                           | Incluido                                                        |
-| Backend y frontend desplegados                  | Configuración y guía preparadas                                                       | **Pendiente de publicar y verificar**                           |
-| Enlaces accesibles desde GitHub                 | Tabla de enlaces en README                                                            | **Repositorio publicado; faltan las URLs de frontend y backend** |
+| Backend y frontend desplegados                  | Configuración y guía preparadas                                                       | Publicados: catálogo, registro, login y solicitud verificados                           |
+| Enlaces accesibles desde GitHub                 | Tabla de enlaces en README                                                            | URLs públicas incorporadas al README |
 | Cloudinary                                      | Extra opcional                                                                        | No incluido                                                     |
 | Otras librerías no vistas en clase              | No se conoce la lista completa del curso                                              | Sin atribuir puntuación extra                                   |
 
-No entregar esta versión como final hasta completar los dos puntos de publicación y comprobar el registro desde la URL pública.
+La publicación y el registro público se comprobaron el 29 de septiembre de 2026. La valoración de arquitectura y UX/UI corresponde al profesorado.
 
 ## Estado de publicación: 29 de septiembre de 2026
 
-El repositorio independiente está publicado en https://github.com/andreaCsa/adopta-un-corazon-proyecto-final. Se comprobó que la rama remota contiene la versión subida. Todavía faltan el despliegue de ambos servicios y las pruebas públicas de registro, acceso y solicitudes. La dirección 127.0.0.1 solo funciona en el equipo local y no es un enlace de entrega.
+El repositorio independiente está publicado en https://github.com/andreaCsa/adopta-un-corazon-proyecto-final. Se comprobó que la rama remota contiene la versión subida. Ambos servicios están desplegados. Se comprobaron el registro, acceso, sesión y creación y consulta de una solicitud contra la API pública, y el catálogo desde la web pública. La dirección 127.0.0.1 solo funciona en el equipo local y no es un enlace de entrega.

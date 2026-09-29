@@ -552,9 +552,11 @@ label small {
   text-decoration: none;
 }
 .animal-image {
+  display: block;
   width: 100%;
   aspect-ratio: 1.45;
   object-fit: cover;
+  object-position: center 25%;
 }
 .animal-placeholder {
   width: 100%;

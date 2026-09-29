@@ -1,0 +1,173 @@
+[
+  {
+    "breed": "Labrador",
+    "species": "Perro",
+    "src": "/media/labrador.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg",
+    "author": "IDS.photos from Tiverton, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "breed": "Pastor Alemán",
+    "species": "Perro",
+    "src": "/media/pastor-aleman.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:German_Shepherd_-_DSC_0346_(10096362833).jpg",
+    "author": "gomagoti",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  {
+    "breed": "Bulldog",
+    "species": "Perro",
+    "src": "/media/bulldog.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:English_bulldog.JPG",
+    "author": "Quizillafreak",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "breed": "Husky",
+    "species": "Perro",
+    "src": "/media/husky.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Husky_L.jpg",
+    "author": "xJaM (talk · contribs)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "breed": "Caniche",
+    "species": "Perro",
+    "src": "/media/caniche.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Full_attention_(8067543690).jpg",
+    "author": "Tim Wilson from Blaine, MN, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "breed": "Golden Retriever",
+    "species": "Perro",
+    "src": "/media/golden-retriever.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg",
+    "author": "Dukedestiny01.jpg: \"Janneke Vreugdenhil\"\nderivative work: Anka Friedrich ([[User talk:Ankaaswe\nTrix Friedrich|talk]])",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "breed": "Beagle",
+    "species": "Perro",
+    "src": "/media/beagle.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Beagle_600.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "breed": "Rottweiler",
+    "species": "Perro",
+    "src": "/media/rottweiler.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rottweiler_standing_facing_left.jpg",
+    "author": "Dr. Manfred Herrmann Allgemeiner Deutscher Rottweiler-Klub (ADRK) e.V. http://www.ADRK.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "breed": "Chihuahua",
+    "species": "Perro",
+    "src": "/media/chihuahua.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chihuahua1_bvdb.jpg",
+    "author": "Bonnie van den Born, http://www.bonfoto.nl. The original uploader was Cwazi at Dutch Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "breed": "Dálmata",
+    "species": "Perro",
+    "src": "/media/dalmata.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sun_Dog_Dalmatian.jpg",
+    "author": "Bradlien",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "breed": "Boxer",
+    "species": "Perro",
+    "src": "/media/boxer.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_fawn_Boxer_undocked.jpg",
+    "author": "Mood210",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "breed": "Siames",
+    "species": "Gato",
+    "src": "/media/siames.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Siamese_cat_Vaillante.JPG",
+    "author": "Meekahoo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "breed": "Persa",
+    "species": "Gato",
+    "src": "/media/persa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Persialainen.jpg",
+    "author": "The original uploader was Lajoma at Finnish Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "breed": "Europeo",
+    "species": "Gato",
+    "src": "/media/europeo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Shorthair_EUR_d_22.jpg",
+    "author": "Tessa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "breed": "Bengala",
+    "species": "Gato",
+    "src": "/media/bengala.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paintedcats_Red_Star_standing.jpg",
+    "author": "User:Lightburst",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "breed": "Maine Coon",
+    "species": "Gato",
+    "src": "/media/maine-coon.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+    "author": "",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "breed": "Sphynx",
+    "species": "Gato",
+    "src": "/media/sphynx.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sphynx_-_cat._img_031.jpg",
+    "author": "Dmitry Makeev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "breed": "Angora",
+    "species": "Gato",
+    "src": "/media/angora.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Turkish_Angora_in_Ankara_Zoo_(AO%C3%87).JPG",
+    "author": "Ankarakediler",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "breed": "Azul Ruso",
+    "species": "Gato",
+    "src": "/media/azul-ruso.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Russian_blue_kitten_(cropped).jpg",
+    "author": "Anna Utekhina http://kidsphoto.ru/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+]

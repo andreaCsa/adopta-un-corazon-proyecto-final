@@ -5,6 +5,7 @@ import { useAuth } from '../hooks/useAuth';
 import { api } from '../config/api';
 import { AnimalImage } from '../components/AnimalCard';
 import { ErrorMessage, ResourceState } from '../components/Feedback';
+import { referencePhoto } from '../config/animalPhotos';
 export default function AnimalDetail() {
   const { id } = useParams();
   const resource = useResource(`/animales/${id}`);
@@ -64,6 +65,11 @@ export default function AnimalDetail() {
                   'Estamos preparando su historia. Puedes enviar una solicitud para conocerlo mejor.'}
               </p>
               <p className="muted">Raza: {animal.raza}. Ficha de demostración.</p>
+              {!animal.imagen && referencePhoto(animal) && (
+                <p className="muted">
+                  Fotografía de referencia. <Link to="/creditos-fotos">Autoría y licencia</Link>
+                </p>
+              )}
               {user?.role === 'admin' ? (
                 <Link className="button" to={`/editar-animal/${id}`}>
                   Editar ficha

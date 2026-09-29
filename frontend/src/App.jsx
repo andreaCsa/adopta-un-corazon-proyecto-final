@@ -9,6 +9,7 @@ import CrearAnimal from './pages/CrearAnimal';
 import EditarAnimal from './pages/EditarAnimal';
 import Solicitudes from './pages/Solicitudes';
 import Admin from './pages/Admin';
+import PhotoCredits from './pages/PhotoCredits';
 export default function App() {
   return (
     <Routes>
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="register" element={<AuthPage key="register" register />} />
         <Route path="animales" element={<Animales />} />
         <Route path="animales/:id" element={<AnimalDetail />} />
+        <Route path="creditos-fotos" element={<PhotoCredits />} />
         <Route element={<ProtectedRoute />}>
           <Route path="solicitudes" element={<Solicitudes />} />
         </Route>

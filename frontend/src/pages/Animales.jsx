@@ -89,7 +89,10 @@ export default function Animales() {
           Solo disponibles
         </label>
       </div>
-      <p className="demo-note">Estas fichas son datos de ejemplo del proyecto académico.</p>
+      <p className="demo-note">
+        Fichas de ejemplo con fotografías de referencia.{' '}
+        <Link to="/creditos-fotos">Créditos de las fotos</Link>
+      </p>
       <ResourceState resource={resource}>
         <p className="results-count" role="status">
           {filtered.length} {filtered.length === 1 ? 'compañero' : 'compañeros'}

@@ -10,11 +10,13 @@ La idea parte del proyecto original de Andrea. Conserva la temática, la fotogra
 
 **Frontend y backend publicados y comprobados el 29 de septiembre de 2026.**
 
-| Enlace de entrega                      | Estado                 |
-| -------------------------------------- | ---------------------- |
-| Repositorio nuevo en GitHub | [adopta-un-corazon-proyecto-final](https://github.com/andreaCsa/adopta-un-corazon-proyecto-final) |
-| Web pública | [Adopta un corazón](https://adopta-un-corazon-proyecto-final.vercel.app) |
-| Backend: comprobación de servicio | [API disponible](https://adopta-un-corazon-final-api.onrender.com/api/health) |
+| Enlace de entrega                 | Estado                                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Repositorio nuevo en GitHub       | [adopta-un-corazon-proyecto-final](https://github.com/andreaCsa/adopta-un-corazon-proyecto-final) |
+| Web pública                       | [Adopta un corazón](https://adopta-un-corazon-proyecto-final.vercel.app)                          |
+| Backend: comprobación de servicio | [API disponible](https://adopta-un-corazon-final-api.onrender.com/api/health)                     |
+
+La cuenta de administración de la web publicada está activada y su acceso se ha comprobado. Sus credenciales se entregan al profesor por un canal privado, nunca en este repositorio.
 
 La URL anterior `https://adopta-un-corazon.vercel.app` pertenece al proyecto previo. No se presenta como un despliegue de esta revisión.
 
@@ -76,7 +78,7 @@ Las claves nunca van en GitHub ni en el frontend. `.env` está excluido mediante
 
 El archivo `data/adopta-un-corazon.xlsx` contiene:
 
-- **Animales:** 100 registros. Nombre, especie, raza, edad e historia proceden del CSV original de Andrea. Se añaden un código estable, ciudad y tamaño de ejemplo. Las fotografías se dejan vacías porque los enlaces originales eran imágenes aleatorias.
+- **Animales:** 100 registros. Nombre, especie, raza, edad e historia proceden del CSV original de Andrea. Se añaden un código estable, ciudad y tamaño de ejemplo. El campo de imagen queda disponible para fotos propias. El frontend aporta fotos de referencia por raza para estas fichas ficticias, sin cambiar el Excel ni los estados de adopción.
 - **Usuarios:** 30 personas ficticias, sin contraseñas en el Excel.
 - **Solicitudes:** 40 registros pendientes que relacionan `usuario_codigo` y `animal_codigo` con los códigos de las otras hojas.
 
@@ -132,7 +134,7 @@ Se eliminaron la segunda API `/api/adoptions` y su modelo incompatible. Todas la
 
 El catálogo y las fichas son públicos. Después del registro o del login se vuelve a la ficha desde la que se inició el proceso. Los errores de conexión y los de credenciales tienen mensajes diferentes. Los formularios tienen etiquetas, estados de espera y confirmación visible.
 
-La foto ocupa la portada, con un degradado oscuro semitransparente. El rosa identifica acciones y detalles. La ficha muestra «Fotografía pendiente» si no hay imagen o esta falla. Las fichas pueden recibir una URL HTTPS desde el panel de administración.
+La foto ocupa la portada, con un degradado oscuro semitransparente. El rosa identifica acciones y detalles. Las 100 fichas del Excel disponen de 19 fotografías de referencia por raza, guardadas en `frontend/public/media`. La página `/creditos-fotos` muestra la autoría, procedencia y licencia de cada foto. Una URL HTTPS añadida desde administración tiene prioridad. Para fichas nuevas sin fotografía o imágenes que fallen se muestra «Fotografía pendiente».
 
 ## API
 
@@ -169,7 +171,7 @@ VITE_API_URL=https://tu-backend.onrender.com npm run build
 
 Las seis pruebas de integración comprueban el registro, la normalización del email, el hash, los roles, las sesiones caducadas, el CRUD, la privacidad de las solicitudes, los duplicados, la aprobación concurrente y la importación repetible. Usan una base temporal y nunca la base configurada en `.env`.
 
-Consulta `docs/VERIFICACION.md` para conocer el alcance de la revisión realizada y lo que falta.
+Consulta `docs/AUDITORIA-FINAL.md` para la revisión punto por punto de la descripción y la rúbrica, y `docs/VERIFICACION.md` para el historial de comprobaciones.
 
 ## Publicación
 
@@ -177,7 +179,7 @@ Consulta `docs/DESPLIEGUE.md`. Es obligatorio publicar **frontend y backend**, y
 
 ## Límites y mejoras opcionales
 
-- La colección de animales utiliza fichas ficticias y aún no tiene fotografías propias. La foto de portada es la proporcionada por Andrea.
+- Las fichas son ficticias. Las fotos de referencia se repiten por raza y no representan animales reales disponibles. La foto de portada es la proporcionada por Andrea.
 - No se ha implementado Cloudinary: es opcional en la rúbrica. Las imágenes se pueden indicar por URL HTTPS.
 - No hay envío de correos ni recuperación automática de contraseña.
 - El límite de intentos está en memoria por proceso. Un despliegue con varias instancias necesitaría un almacén compartido.

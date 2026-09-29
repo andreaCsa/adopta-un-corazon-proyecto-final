@@ -1,15 +1,21 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Icon from './Icon';
+import { referencePhoto } from '../config/animalPhotos';
 export function AnimalImage({ animal }) {
-  const [failed, setFailed] = useState(false);
-  return animal.imagen && !failed ? (
+  const [failedSource, setFailedSource] = useState('');
+  const reference = !animal.imagen && referencePhoto(animal);
+  const source = animal.imagen || reference?.src;
+  return source && failedSource !== source ? (
     <img
       className="animal-image"
-      src={animal.imagen}
-      alt={animal.nombre}
+      src={source}
+      alt={
+        reference ? `${animal.nombre}: fotografía de referencia de ${animal.raza}` : animal.nombre
+      }
       loading="lazy"
-      onError={() => setFailed(true)}
+      decoding="async"
+      onError={() => setFailedSource(source)}
     />
   ) : (
     <div className={`animal-placeholder ${animal.especie === 'Gato' ? 'cat' : ''}`}>

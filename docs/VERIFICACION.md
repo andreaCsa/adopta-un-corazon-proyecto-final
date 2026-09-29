@@ -28,4 +28,4 @@ La demo utiliza una base temporal y credenciales ficticias. No utiliza el `.env`
 - Navegador: catálogo público con 100 resultados, 12 fichas en la primera página y sin error de conexión.
 - API pública: CORS para el dominio nuevo, registro, login, sesión y creación/consulta de una solicitud, todos correctos. La prueba autorizada añade una cuenta ficticia y una solicitud claramente identificadas como verificación técnica.
 - Tras actualizar dependencias: seis pruebas de integración pasadas; auditoría npm sin vulnerabilidades reportadas.
-- El rol administrador se probó localmente; no se ha creado todavía una cuenta administrativa personal en producción.
+- Cuenta administrativa de producción activada: acceso con contraseña comprobado en la web, menú Gestionar y listado de solicitudes con botones Aprobar y Rechazar visibles. Las credenciales no se publican en el repositorio.

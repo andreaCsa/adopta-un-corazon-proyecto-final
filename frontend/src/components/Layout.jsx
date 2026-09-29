@@ -97,7 +97,7 @@ export default function Layout() {
             <Link to="/animales">
               Conocer a los animales <Icon name="arrow" />
             </Link>
-            <small>Proyecto educativo de Andrea · Datos de demostración</small>
+            <small>Proyecto final Andrea Simon</small>
           </div>
         </div>
       </footer>
